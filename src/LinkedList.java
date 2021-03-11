@@ -1,24 +1,24 @@
 public class LinkedList <K,V>{
-    Link head;
+    Link <K,V> head;
 
     public void add(V d, K k){
         if(head == null){
-            Link n = new Link(null,d,k);
+            Link<K,V> n = new Link<K,V>(null,d,k);
             head = n;
         }
         else{
-            Link n = new Link(head,d,k);
+            Link <K,V> n = new Link<K,V>(head,d,k);
             head = n;
         }
     }
 }
 
 class Link <K,V>{
-    Link next;
+    Link <K,V> next;
     V data;
     K key;
 
-    Link(Link n, V d, K k){
+    Link(Link <K,V> n, V d, K k){
         next = n;
         data = d;
         key = k;

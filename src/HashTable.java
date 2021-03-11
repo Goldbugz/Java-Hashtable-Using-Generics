@@ -5,7 +5,7 @@ public class HashTable <K,V> implements Table <K,V> {
     K[] ka;
     int size;
 
-    LinkedList <K,V>[] l;
+    LinkedList<K,V>[] l;
 
     HashTable(int s){
         size = s;
@@ -21,12 +21,8 @@ public class HashTable <K,V> implements Table <K,V> {
             l[hashValue].add(value,key);
 
         else{
-            //have no clue if this line will actually compare the values stored
-            //double check
-            //if(l[hashValue].head.data.equals(value)); //do nothing
-           // else if()
             boolean check = false;
-            Link t = l[hashValue].head;
+            Link <K,V> t = l[hashValue].head;
             while(t != null && t.key != key){
                 if (t.key.equals(key)) {
                     check = true;
@@ -43,12 +39,10 @@ public class HashTable <K,V> implements Table <K,V> {
     }
 
     public V get(K key) {
-
         int hashValue = Math.abs(key.hashCode() % size);
         Link <K,V> t = l[hashValue].head;
         while(t != null){
             if (t.key.equals(key)) {
-                //change this NO CASTS BADDDD
                 return t.data;
             }
             t = t.next;
