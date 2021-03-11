@@ -19,6 +19,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dkkoo\OneDrive\Data Structures\ASG_2_Git_Repository\ASG_2_Git_Repository\src" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="HashTableTestor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HashTableTestor" />
@@ -45,5 +50,23 @@
       <updated>1615490710908</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1615490905215">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1615490905215" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1615490905215">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1615490905215" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1615490905215">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1615490905215" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1615490905215">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1615490905215" />
   </component>
 </project>

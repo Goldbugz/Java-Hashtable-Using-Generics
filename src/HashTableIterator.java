@@ -25,5 +25,3 @@ public class HashTableIterator <E>  implements Iterator  {
         return a[count-1];
     }
 }
-
-///poggerssss
