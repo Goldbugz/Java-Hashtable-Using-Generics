@@ -1,11 +1,11 @@
 import java.util.Iterator;
 
-public class HashTableIterator <E>  implements Iterator  {
+public class HashTableIterator <E>  implements Iterator <E> {
 
-    E a[];
+    E[] a;
     int count = 0;
 
-    HashTableIterator(E ar[]){
+    HashTableIterator(E[] ar){
         a = ar;
     }
     public boolean hasNext() {
