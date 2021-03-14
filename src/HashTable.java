@@ -30,11 +30,13 @@ public class HashTable <K,V> implements Table <K,V> {
                 }
                 t = t.next;
             }
-            if(!check){
+            if(!check)
                 l[hashValue].add(value,key);
-
                 //else rewrite because value is already in the linked list
+            else {
+                t.data = value;
             }
+
 
         }
 
