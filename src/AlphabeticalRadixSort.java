@@ -1,7 +1,7 @@
 import java.util.Iterator;
 
 public class AlphabeticalRadixSort {
-    public void sort(Iterator<String> hit){
+    public void sort(String[] a){
         StringLinkedList[] list = new StringLinkedList[26]; // create an array of StringLinkedList for 26 letters in alphabets
         int count = 0;
         // initialize all the elements in the array to new StringLinkedList
@@ -12,10 +12,11 @@ public class AlphabeticalRadixSort {
 
         // Put the datas in the file according to their third character into the corresponding StringLinkedLists
         // For example, "Zachary" would go to to list[2]
-        while(hit.hasNext())
+        //while(hit.hasNext())
+        for(int j = 0; j < a.length; j++)
         {
-            System.out.println("poggers");
-            String currentdata = hit.next();
+
+            String currentdata = a[j];
             for(int i = 0; i < 26; i++){
                 if(currentdata.charAt(2) == (char)(i+97))
                 {
@@ -85,7 +86,7 @@ public class AlphabeticalRadixSort {
             m = list[i].head;
 
             while(m!=null){
-                System.out.println("poggers");
+                //System.out.println("poggers");
                 System.out.println(m.data);
                 container.addToEnd(m.data);
                 m = m.next;
